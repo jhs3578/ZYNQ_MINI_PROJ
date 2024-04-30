@@ -53,7 +53,7 @@ always @(LED_ON_NUMBER) begin
 		1: LED <= 4'b0010;
 		2: LED <= 4'b0100;
 		3: LED <= 4'b1000;
-		ｄｅｆａｕｌｔ： ＬＥＤ ＜＝ ４’ｂ０００；
+		default : LED <= 4'b0000;
 	endcase
 end
 endmodule
