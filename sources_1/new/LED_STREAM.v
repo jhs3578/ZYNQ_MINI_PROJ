@@ -55,7 +55,4 @@ always @(LED_ON_NUMBER) begin
 		3: LED <= 4'b1000;
 	endcase
 end
-    
-    
-    
 endmodule
